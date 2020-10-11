@@ -7,71 +7,213 @@
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="header__nav">
-      <ul class="header__list visually-hidden"></ul>
-      <div class="header__contacts">8 (812) 690-10-10</div>
-    </nav>
-    <div class="header__logo">
-      <img class="header__logo-img" src="img/logo.svg">
-      <h1 class="header__name">YOGA</h1>
-    </div>
-    <a href="#" class="header__trial-link"></a>
-  </header>
-  <main class="main">
-    <section class="cources">
-      <ul class="cources__list">
-        <li class="cources__item">
-          <img src="img/khatkha.jpg" alt="khatkha-img">
-          <div class="cources__wrapper">
-            <div class="cources__description">
-              <h2 class="cources__name">Хатха-йога</h2>
-              <p class="cources__time">Пн, Ср, Пт – с 12:00 до 15:00</p>
-              <p class="cources__time">Вт, Чт – с 18:00 до 21:00</p>
-              <p class="cources__instructor">Инструктор Емельянова Полина</p>
+  <div class="page__container">
+    <header class="header page__section-container">
+      <nav class="header__nav">
+        <button class="header__menu-btn" type="button">
+          <span class="header__menu-text">Меню</span>
+        </button>
+        <ul class="header__list visually-hidden"></ul>
+        <div class="header__contacts">8 (812) 690-10-10</div>
+      </nav>
+      <div class="header__logo">
+        <img class="header__logo-img" src="img/logo.svg">
+        <h1 class="header__name">YOGA</h1>
+      </div>
+      <a href="#" class="header__trial-link">Запишитесь на бесплатное пробное занятие</a>
+    </header>
+    <main class="main">
+      <section class="courses page__section-container">
+        <h2 class="courses__title main__title">Направления</h2>
+        <ul class="courses__list">
+          <li class="courses__item">
+            <img src="img/khatkha.jpg" alt="khatkha-img">
+            <div class="courses__wrapper">
+              <div class="courses__description">
+                <h3 class="courses__name">Хатха-йога</h3>
+                <p class="courses__time">Пн, Ср, Пт – с 12:00 до 15:00</p>
+                <p class="courses__time">Вт, Чт – с 18:00 до 21:00</p>
+                <p class="courses__instructor">Инструктор Емельянова Полина</p>
+              </div>
+              <a href="#" class="courses__link">
+                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              </a>
             </div>
-            <a href="#" class="cources__link">
-              <svg width="9" height="13" viewBox="0 0 9 13" fill="none">
-                <path d="M1 1L8 6.5L1 12" stroke="white"></path>
-              </svg>
-            </a>
-          </div>
+          </li>
+          <li class="courses__item">
+            <img src="img/ashtanga.jpg" alt="ashtanga-img">
+            <div class="courses__wrapper">
+              <div class="courses__description">
+                <h3 class="courses__name">Ашатанга-йога</h3>
+                <p class="courses__time">Пн, Ср, Пт – с 11:00 до 14:00</p>
+                <p class="courses__time">Вт, Чт – с 19:00 до 21:00</p>
+                <p class="courses__instructor">Инструктор Емельянова Полина</p>
+              </div>
+              <a href="#" class="courses__link">
+                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              </a>
+            </div>
+          </li>
+          <li class="courses__item">
+            <img src="img/kundalini.jpg" alt="ashtanga-img">
+            <div class="courses__wrapper">
+              <div class="courses__description">
+                <h3 class="courses__name">Кундалини-йога</h3>
+                <p class="courses__time">Пн, Ср, Пт – с 12:00 до 15:00</p>
+                <p class="courses__time">Вт, Чт – с 18:00 до 21:00</p>
+                <p class="courses__instructor">Инструктор Емельянова Полина</p>
+              </div>
+              <a href="#" class="courses__link">
+                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="subscription page__section-container">
+        <h2 class="courses__title main__title">Абонементы</h2>
+        <ul class="subscription__months-list">
+          <li class="subscription__months-item">
+            <button type="button" class="subscription__months-btn">1 месяц</button>
+          </li>
+          <li class="subscription__months-item">
+            <button type="button" class="subscription__months-btn">6 месяцев</button>
+          </li>
+          <li class="subscription__months-item">
+            <button type="button" class="subscription__months-btn">12 месяцев</button>
+          </li>
+        </ul>
+        <ul class="subscription__list">
+          <li class="subscription-block">
+            <h3 class="subscription-block__title">Утро</h3>
+            <p class="subscription-block__time">Посещение с 11:00 до 16:00</p>
+            <p class="subscription-block__price">1 300 Р</p>
+            <a class="subscription-block__order-btn">Заказать абонемент</a>
+          </li>
+          <li class="subscription-block">
+            <h3 class="subscription-block__title">Безлимит</h3>
+            <p class="subscription-block__time">Посещение не ограничено по времени</p>
+            <p class="subscription-block__price">2 800 Р</p>
+            <a class="subscription-block__order-btn">Заказать абонемент</a>
+          </li>
+          <li class="subscription-block">
+            <h3 class="subscription-block__title">Вечер</h3>
+            <p class="subscription-block__time">Посещение с 17:00 до 21:00</p>
+            <p class="subscription-block__price">2 000 Р</p>
+            <a class="subscription-block__order-btn">Заказать абонемент</a>
+          </li>
+        </ul>
+      </section>
+      <section class="team page__section-container">
+        <h2 class="team__title main__title">Наша команда</h2>
+        <div class="team-card">
+          <img class="team-card__img" src="img/team-popov.jpg" alt="popov-photo">
+          <p class="team-card__member-name">Инструктор Серёжа Попов</p>
+          <p class="team-card__course">Хатха-йога</p>
+          <ul class="team-card__social-list">
+            <li class="team-card__social-item">
+              <a href="" class="team-card__social-vk">
+                <img src="img/vk-icon.svg" alt="vk-link" width="16" height="10">
+              </a>
+            </li>
+            <li class="team-card__social-item">
+              <a href="" class="team-card__social-tw">
+                <img src="img/tw-icon.svg" alt="tw-link" width="18" height="12">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button class="team__prev-btn prev-btn" type="button"></button>
+        <button class="team__next-btn next-btn" type="button"></button>
+        <div class="team__member-about">
+          <p class="team__member-experiance">Опыт преподавания: 8 лет</p>
+          <p class="team__member-description">Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих.
+            Обучался в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А.Константинова), Московский центр классической йоги Виктора Бойко.
+            Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).
+            Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+        </div>
+      </section>
+      <section class="reviews page__section-container">
+        <h2 class="reviews__title main__title">Отзывы</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item review">
+            <p class="review__text">Хожу на йогу вечером, чтобы расслабиться 
+              после  тяжелого трудового дня. 
+              И после занятий наступает спокойствие! 
+              
+              Йога это отличный способ быстро 
+              и качественно расслабиться.
+              Спасибо инструктору Марине.
+            </p>
+            <div class="review__author">
+              <img src="img/team-popov.jpg" alt="review-author-photo">
+              <div class="review__info">
+                <p class="review__author-name">Серёжа Попов</p>
+                <p class="review__date">16 мая 2018</p>
+                <ul class="review__social-list">
+                  <li class="review__social-item">
+                    <a href="" class="review__social-vk">
+                      <img src="img/vk-icon.svg" alt="vk-link" width="16" height="10">
+                    </a>
+                  </li>
+                  <li class="review__social-item">
+                    <a href="" class="review__social-tw">
+                      <img src="img/tw-icon.svg" alt="tw-link" width="18" height="12">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="reviews__pages">
+          <button class="reviews__prev-btn prev-btn" type="button"></button>
+          <p class="reviews__pages-number">1/9</p>
+          <button class="reviews__next-btn next-btn" type="button"></button>
+        </div>
+      </section>
+      <section class="sign-up page__section-container">
+        <h2 class="sign-up__title main__title">Запишитесь на бесплатное пробное занятие</h2>
+        <form class="sign-up__form" action="#" method="POST">
+          <input class="sign-up__input" type="text" placeholder="Ваше имя">
+          <input class="sign-up__input" type="text" placeholder="Ваш телефон">
+          <button class="sign-up__btn" type="submit">Оставить заявку</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__block">
+        <p class="footer__block-title">Адрес:</p>
+        <p class="footer__block-text">Московский проспект, 22</p>
+      </div>
+      <div class="footer__block">
+        <p class="footer__block-title">График работы:</p>
+        <p class="footer__block-text">Пн-Вс с 11:00 до 21:00</p>
+      </div>
+      <div class="footer__block">
+        <p class="footer__block-title">Email:</p>
+        <p class="footer__block-text">yogaspb@gmail.com</p>
+      </div>
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-vk">
+            <img src="img/vk-icon.svg" alt="vk-link" width="25" height="15">
+          </a>
         </li>
-        <li class="cources__item">
-          <img src="img/ashtanga.jpg" alt="ashtanga-img">
-          <div class="cources__wrapper">
-            <div class="cources__description">
-              <h2 class="cources__name">Ашатанга-йога</h2>
-              <p class="cources__time">Пн, Ср, Пт – с 11:00 до 14:00</p>
-              <p class="cources__time">Вт, Чт – с 19:00 до 21:00</p>
-              <p class="cources__instructor">Инструктор Емельянова Полина</p>
-            </div>
-            <a href="#" class="cources__link">
-              <svg width="9" height="13" viewBox="0 0 9 13" fill="none">
-                <path d="M1 1L8 6.5L1 12" stroke="white"></path>
-              </svg>
-            </a>
-          </div>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-tw">
+            <img src="img/tw-icon.svg" alt="tw-link" width="29" height="20">
+          </a>
         </li>
-        <li class="cources__item">
-          <img src="img/kundalini.jpg" alt="ashtanga-img">
-          <div class="cources__wrapper">
-            <div class="cources__description">
-              <h2 class="cources__name">Кундалини-йога</h2>
-              <p class="cources__time">Пн, Ср, Пт – с 12:00 до 15:00</p>
-              <p class="cources__time">Вт, Чт – с 18:00 до 21:00</p>
-              <p class="cources__instructor">Инструктор Емельянова Полина</p>
-            </div>
-            <a href="#" class="cources__link">
-              <svg width="9" height="13" viewBox="0 0 9 13" fill="none">
-                <path d="M1 1L8 6.5L1 12" stroke="white"></path>
-              </svg>
-            </a>
-          </div>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-fb">
+            <img src="img/fb-icon.svg" alt="fb-link" width="10" height="21">
+          </a>
         </li>
       </ul>
-    </section>
-  </main>
-
+      <p class="footer__copyright">&copy; 2018   Все права защищены</p>
+      <a class="footer__dev-link" href="#">Yogaspb.com</a>
+    </footer>
+  </div>
 </body>
 </html>

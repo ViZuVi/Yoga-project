@@ -1,7 +1,8 @@
 .header {
   background-image: url("../../img/header-bcg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 108px;
+  padding-bottom: 65px;
 }
 
 .header__nav {
@@ -29,6 +30,7 @@
 
 .header__logo {
   margin: 100px 44px 25px;
+  text-align: center;
 }
 
 .header__logo-img {

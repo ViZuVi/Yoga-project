@@ -1,5 +1,4 @@
 .page__container {
-  width: 320px;
   margin: 0 auto;
 }
 
@@ -7,4 +6,10 @@
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.page__title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }

@@ -24,10 +24,10 @@
     </header>
     <main class="main">
       <section class="courses page__section-container">
-        <h2 class="courses__title main__title">Направления</h2>
+        <h2 class="courses__title page__title">Направления</h2>
         <ul class="courses__list">
           <li class="courses__item">
-            <img src="img/khatkha.jpg" alt="khatkha-img">
+            <img src="img/khatkha.jpg" alt="khatkha-img" width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Хатха-йога</h3>
@@ -35,13 +35,12 @@
                 <p class="courses__time">Вт, Чт – с 18:00 до 21:00</p>
                 <p class="courses__instructor">Инструктор Емельянова Полина</p>
               </div>
-              <a href="#" class="courses__link">
-                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              <a href="#" class="courses__link" aria-label="Подробнее про Хатха-йога">
               </a>
             </div>
           </li>
           <li class="courses__item">
-            <img src="img/ashtanga.jpg" alt="ashtanga-img">
+            <img src="img/ashtanga.jpg" alt="ashtanga-img"  width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Ашатанга-йога</h3>
@@ -49,13 +48,12 @@
                 <p class="courses__time">Вт, Чт – с 19:00 до 21:00</p>
                 <p class="courses__instructor">Инструктор Емельянова Полина</p>
               </div>
-              <a href="#" class="courses__link">
-                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              <a href="#" class="courses__link" aria-label="Подробнее про Ашатанга-йога">
               </a>
             </div>
           </li>
           <li class="courses__item">
-            <img src="img/kundalini.jpg" alt="ashtanga-img">
+            <img src="img/kundalini.jpg" alt="ashtanga-img"  width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Кундалини-йога</h3>
@@ -63,18 +61,17 @@
                 <p class="courses__time">Вт, Чт – с 18:00 до 21:00</p>
                 <p class="courses__instructor">Инструктор Емельянова Полина</p>
               </div>
-              <a href="#" class="courses__link">
-                <img src="img/right-arr-icon.svg" alt="emelyanova-instructor-details">
+              <a href="#" class="courses__link" aria-label="Подробнее про Кундалини-йога">
               </a>
             </div>
           </li>
         </ul>
       </section>
       <section class="subscription page__section-container">
-        <h2 class="courses__title main__title">Абонементы</h2>
+        <h2 class="subscription__title page__title">Абонементы</h2>
         <ul class="subscription__months-list">
           <li class="subscription__months-item">
-            <button type="button" class="subscription__months-btn">1 месяц</button>
+            <button type="button" class="subscription__months-btn subscription__months-btn--active">1 месяц</button>
           </li>
           <li class="subscription__months-item">
             <button type="button" class="subscription__months-btn">6 месяцев</button>
@@ -83,29 +80,29 @@
             <button type="button" class="subscription__months-btn">12 месяцев</button>
           </li>
         </ul>
-        <ul class="subscription__list">
-          <li class="subscription-block">
-            <h3 class="subscription-block__title">Утро</h3>
-            <p class="subscription-block__time">Посещение с 11:00 до 16:00</p>
-            <p class="subscription-block__price">1 300 Р</p>
-            <a class="subscription-block__order-btn">Заказать абонемент</a>
+        <ul class="subscription__cards-list">
+          <li class="subscription__card">
+            <h3 class="subscription__card-title">Утро</h3>
+            <p class="subscription__card-time">Посещение с 11:00 до 16:00</p>
+            <p class="subscription__card-price">1 300 Р</p>
+            <a class="subscription__card-order-btn">Заказать абонемент</a>
           </li>
-          <li class="subscription-block">
-            <h3 class="subscription-block__title">Безлимит</h3>
-            <p class="subscription-block__time">Посещение не ограничено по времени</p>
-            <p class="subscription-block__price">2 800 Р</p>
-            <a class="subscription-block__order-btn">Заказать абонемент</a>
+          <li class="subscription__card">
+            <h3 class="subscription__card-title">Безлимит</h3>
+            <p class="subscription__card-time">Посещение не ограничено по времени</p>
+            <p class="subscription__card-price">2 800 Р</p>
+            <a class="subscription__card-order-btn">Заказать абонемент</a>
           </li>
-          <li class="subscription-block">
-            <h3 class="subscription-block__title">Вечер</h3>
-            <p class="subscription-block__time">Посещение с 17:00 до 21:00</p>
-            <p class="subscription-block__price">2 000 Р</p>
-            <a class="subscription-block__order-btn">Заказать абонемент</a>
+          <li class="subscription__card">
+            <h3 class="subscription__card-title">Вечер</h3>
+            <p class="subscription__card-time">Посещение с 17:00 до 21:00</p>
+            <p class="subscription__card-price">2 000 Р</p>
+            <a class="subscription__card-order-btn">Заказать абонемент</a>
           </li>
         </ul>
       </section>
       <section class="team page__section-container">
-        <h2 class="team__title main__title">Наша команда</h2>
+        <h2 class="team__title page__title">Наша команда</h2>
         <div class="team-card">
           <img class="team-card__img" src="img/team-popov.jpg" alt="popov-photo">
           <p class="team-card__member-name">Инструктор Серёжа Попов</p>
@@ -134,7 +131,7 @@
         </div>
       </section>
       <section class="reviews page__section-container">
-        <h2 class="reviews__title main__title">Отзывы</h2>
+        <h2 class="reviews__title page__title">Отзывы</h2>
         <ul class="reviews__list">
           <li class="reviews__item review">
             <p class="review__text">Хожу на йогу вечером, чтобы расслабиться 
@@ -173,7 +170,7 @@
         </div>
       </section>
       <section class="sign-up page__section-container">
-        <h2 class="sign-up__title main__title">Запишитесь на бесплатное пробное занятие</h2>
+        <h2 class="sign-up__title page__title">Запишитесь на бесплатное пробное занятие</h2>
         <form class="sign-up__form" action="#" method="POST">
           <input class="sign-up__input" type="text" placeholder="Ваше имя">
           <input class="sign-up__input" type="text" placeholder="Ваш телефон">

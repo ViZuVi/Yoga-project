@@ -1,0 +1,50 @@
+.courses {
+  background-image: url("../../img/cources-bcg-mobile.jpg");
+  background-position-y: 103px;
+  background-repeat: no-repeat;
+}
+
+.courses__list {
+  @include list-reset;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.courses__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.courses__wrapper {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.courses__description {
+  width: 207px;
+  padding: 20px;
+  box-shadow: 0 4px 25px 0 rgba(142, 128, 169, 0.2);
+}
+
+.courses__name {
+  font-size: 12px;
+  margin: 0;
+}
+
+.courses__instructor {
+  width: 102px;
+  color: #E65C7B;
+}
+
+.courses__link {
+  flex-grow: 1;
+  background-color: #8E80A9;
+  background-image: url("../../img/right-arr-icon.svg");
+  background-size: 7px 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,40 @@
+.sign-up {
+  background-image: url("../../img/sign-up.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+  padding-left: 30px;
+}
+
+.sign-up__title {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: start;
+  margin-top: 50px;
+}
+
+.sign-up__input {
+  background-color: transparent;
+  font-size: 14px;
+  color: #8E80A9;
+  font-family: inherit;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #8E80A9;
+
+  &::-webkit-input-placeholder {
+    color: #8E80A9;
+  }
+}
+
+.sign-up__btn {
+  width: 250px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 66px;
+  background-color: #E65C7B;
+  border: none;
+  margin-bottom: 70px;
+}

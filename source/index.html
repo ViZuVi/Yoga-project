@@ -147,29 +147,25 @@
       <section class="reviews page__section-container">
         <h2 class="reviews__title page__title">Отзывы</h2>
         <ul class="reviews__list">
-          <li class="reviews__item review">
-            <p class="review__text">Хожу на йогу вечером, чтобы расслабиться 
-              после  тяжелого трудового дня. 
-              И после занятий наступает спокойствие! 
-              
-              Йога это отличный способ быстро 
-              и качественно расслабиться.
-              Спасибо инструктору Марине.
+          <li class="review">
+            <p class="review__text">
+              <p>Хожу на йогу вечером, чтобы расслабиться после  тяжелого трудового дня. И после занятий наступает спокойствие!</p>
+              <p>Йога это отличный способ быстро и качественно расслабиться. Спасибо инструктору Марине.</p>          
             </p>
             <div class="review__author">
-              <img src="img/team-popov.jpg" alt="review-author-photo">
+              <img src="img/team-popov.jpg" alt="review-author-photo" width="52" height="51">
               <div class="review__info">
                 <p class="review__author-name">Серёжа Попов</p>
                 <p class="review__date">16 мая 2018</p>
                 <ul class="review__social-list">
                   <li class="review__social-item">
                     <a href="" class="review__social-vk">
-                      <img src="img/vk-icon.svg" alt="vk-link" width="16" height="10">
+                      <img src="img/vk-icon.svg" alt="vk-link" width="13" height="8">
                     </a>
                   </li>
                   <li class="review__social-item">
                     <a href="" class="review__social-tw">
-                      <img src="img/tw-icon.svg" alt="tw-link" width="18" height="12">
+                      <img src="img/tw-icon.svg" alt="tw-link" width="15" height="10">
                     </a>
                   </li>
                 </ul>
@@ -178,9 +174,17 @@
           </li>
         </ul>
         <div class="reviews__pages">
-          <button class="reviews__prev-btn prev-btn" type="button"></button>
+          <button class="reviews__btn reviews__btn--prev" type="button">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none">
+              <path d="M5.5 7.5L1.5 4L5.5 0.5" stroke="#8E80A9"/>
+            </svg>              
+          </button>
           <p class="reviews__pages-number">1/9</p>
-          <button class="reviews__next-btn next-btn" type="button"></button>
+          <button class="reviews__btn reviews__btn--next reviews__btn--active" type="button">
+            <svg width="6" height="8" viewBox="0 0 6 8" fill="none">
+              <path d="M0.5 0.5L4.5 4L0.5 7.5" stroke="white"/>
+            </svg>  
+          </button>
         </div>
       </section>
       <section class="sign-up page__section-container">
@@ -208,17 +212,17 @@
       <ul class="footer__social-list">
         <li class="footer__social-item">
           <a href="" class="footer__social-vk">
-            <img src="img/vk-icon.svg" alt="vk-link" width="25" height="15">
+            <img src="img/vk-white-icon.svg" alt="vk-link" width="25" height="15">
           </a>
         </li>
         <li class="footer__social-item">
           <a href="" class="footer__social-tw">
-            <img src="img/tw-icon.svg" alt="tw-link" width="29" height="20">
+            <img src="img/tw-white-icon.svg" alt="tw-link" width="29" height="20">
           </a>
         </li>
         <li class="footer__social-item">
           <a href="" class="footer__social-fb">
-            <img src="img/fb-icon.svg" alt="fb-link" width="10" height="21">
+            <img src="img/fb-white-icon.svg" alt="fb-link" width="10" height="21">
           </a>
         </li>
       </ul>

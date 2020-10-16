@@ -1,3 +1,16 @@
+.subscription {
+  background-image: url("../../img/subscription-bcg.png"),
+                    url("../../img/subscription-under-bcg.png");
+  background-repeat: no-repeat;
+  background-position: 0 126px, right bottom;
+  background-size: contain;
+  padding-bottom: 76px;
+}
+
+.subscription__title {
+  margin-bottom: 40px;
+}
+
 .subscription__months-list {
   @include list-reset;
   margin: 0 auto 30px;

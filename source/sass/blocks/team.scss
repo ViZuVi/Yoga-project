@@ -1,0 +1,44 @@
+.team {
+  background-image: url("../../img/team-bcg.png");
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  margin-bottom: 70px;
+}
+
+.team__title {
+  margin-bottom: 40px;
+}
+
+.team__btn-wtapper {
+  display: flex;
+  align-items: center;
+}
+
+.team__btn {
+  padding: 12px 6px;
+  background-color: transparent;
+  border: 1px solid #8E80A9;
+
+  &--prev {
+    order: 1;
+  }
+
+  &--next {
+    order: 3;
+  }
+
+  &--active {
+    background-color: #8E80A9;
+  }
+}
+
+.team__member-about {
+  margin: 0 30px;
+}
+
+.team__member-experiance {
+  line-height: 20px;
+  color: #E65C7B;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}

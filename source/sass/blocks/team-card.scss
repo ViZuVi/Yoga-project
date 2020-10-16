@@ -1,0 +1,36 @@
+.team-card {
+  order: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 228px;
+  height: 82px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.team__card-box {
+  box-shadow: 0 4px 25px 0 rgba(142, 128, 169, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-card p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.team-card__member-name {
+  line-height: 15px;
+  color: #E65C7B;
+}
+
+.team-card__course {
+  line-height: 20px;
+}
+
+.team-card__social-list {
+  @include list-reset;
+  margin-right: 20px;
+}

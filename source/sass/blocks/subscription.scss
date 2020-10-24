@@ -78,3 +78,51 @@
   line-height: 20px;
   padding: 14px 23px;
 }
+
+@media (min-width: 768px) {
+  .subscription {
+    margin-bottom: 50px;
+  }
+
+  .subscription__title {
+    margin-bottom: 20px;
+  }
+
+  .subscription__cards-list {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .subscription__card {
+    margin-right: 25px;
+    padding: 40px 30px;
+    width: 176px;
+
+    &--active {
+      width: 222px;
+
+      .subscription__card-order-btn {
+        display: block;
+      }
+
+      .subscription__card-time {
+        width: 121px;
+      }
+    }
+  }
+
+  .subscription__card-title {
+    margin-bottom: 15px;
+  }
+
+  .subscription__card-price {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  .subscription__card-order-btn {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+}

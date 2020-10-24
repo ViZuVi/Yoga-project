@@ -12,6 +12,12 @@
 .team__btn-wtapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.team__list {
+  @include list-reset;
+  order: 2;
 }
 
 .team__btn {
@@ -30,6 +36,10 @@
   &--active {
     background-color: #8E80A9;
   }
+}
+
+.team__pages-number {
+  display: none;
 }
 
 .team__member-about {

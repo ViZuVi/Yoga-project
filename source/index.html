@@ -27,7 +27,7 @@
         <h2 class="courses__title page__title">Направления</h2>
         <ul class="courses__list">
           <li class="courses__item">
-            <img src="img/khatkha.jpg" alt="khatkha-img" width="250" height="200">
+            <img class="courses__img" src="img/khatkha.jpg" alt="khatkha-img" width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Хатха-йога</h3>
@@ -40,7 +40,7 @@
             </div>
           </li>
           <li class="courses__item">
-            <img src="img/ashtanga.jpg" alt="ashtanga-img"  width="250" height="200">
+            <img class="courses__img" src="img/ashtanga.jpg" alt="ashtanga-img"  width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Ашатанга-йога</h3>
@@ -53,7 +53,7 @@
             </div>
           </li>
           <li class="courses__item">
-            <img src="img/kundalini.jpg" alt="ashtanga-img"  width="250" height="200">
+            <img class="courses__img" src="img/kundalini.jpg" alt="ashtanga-img"  width="250" height="200">
             <div class="courses__wrapper">
               <div class="courses__description">
                 <h3 class="courses__name">Кундалини-йога</h3>
@@ -66,6 +66,7 @@
             </div>
           </li>
         </ul>
+        <a class="courses__more-link" href="#">Смотреть больше</a>
       </section>
       <section class="subscription page__section-container">
         <h2 class="subscription__title page__title">Абонементы</h2>
@@ -85,26 +86,27 @@
             <h3 class="subscription__card-title">Утро</h3>
             <p class="subscription__card-time">Посещение с 11:00 до 16:00</p>
             <p class="subscription__card-price">1 300 Р</p>
-            <a class="subscription__card-order-btn">Заказать абонемент</a>
+            <a class="subscription__card-order-btn" href="#">Заказать абонемент</a>
           </li>
-          <li class="subscription__card">
+          <li class="subscription__card subscription__card--active">
             <h3 class="subscription__card-title">Безлимит</h3>
             <p class="subscription__card-time">Посещение не ограничено по времени</p>
             <p class="subscription__card-price">2 800 Р</p>
-            <a class="subscription__card-order-btn">Заказать абонемент</a>
+            <a class="subscription__card-order-btn" href="#">Заказать абонемент</a>
           </li>
           <li class="subscription__card">
             <h3 class="subscription__card-title">Вечер</h3>
             <p class="subscription__card-time">Посещение с 17:00 до 21:00</p>
             <p class="subscription__card-price">2 000 Р</p>
-            <a class="subscription__card-order-btn">Заказать абонемент</a>
+            <a class="subscription__card-order-btn" href="#">Заказать абонемент</a>
           </li>
         </ul>
       </section>
       <section class="team page__section-container">
         <h2 class="team__title page__title">Наша команда</h2>
         <div class="team__btn-wtapper">
-          <div class="team-card">
+          <ul class="team__list">
+          <li class="team-card">
             <img class="team-card__img" src="img/team-popov.jpg" alt="popov-photo">
             <div class="team__card-box">
               <p>
@@ -123,13 +125,60 @@
                   </a>
                 </li>
               </ul>
+              <button class="team-card__look-btn">Смотреть</button>
             </div>
-          </div>
+          </li>
+          <li class="team-card">
+            <img class="team-card__img" src="img/team-popov.jpg" alt="popov-photo">
+            <div class="team__card-box">
+              <p>
+                <span class="team-card__member-name">Инструктор Серёжа Попов</span>
+                <span class="team-card__course">Хатха-йога</span>
+              </p>
+              <ul class="team-card__social-list">
+                <li class="team-card__social-item">
+                  <a href="" class="team-card__social-vk">
+                    <img src="img/vk-icon.svg" alt="vk-link" width="16" height="10">
+                  </a>
+                </li>
+                <li class="team-card__social-item">
+                  <a href="" class="team-card__social-tw">
+                    <img src="img/tw-icon.svg" alt="tw-link" width="18" height="12">
+                  </a>
+                </li>
+              </ul>
+              <button class="team-card__look-btn">Смотреть</button>
+            </div>
+          </li>
+          <li class="team-card">
+            <img class="team-card__img" src="img/team-popov.jpg" alt="popov-photo">
+            <div class="team__card-box">
+              <p>
+                <span class="team-card__member-name">Инструктор Серёжа Попов</span>
+                <span class="team-card__course">Хатха-йога</span>
+              </p>
+              <ul class="team-card__social-list">
+                <li class="team-card__social-item">
+                  <a href="" class="team-card__social-vk">
+                    <img src="img/vk-icon.svg" alt="vk-link" width="16" height="10">
+                  </a>
+                </li>
+                <li class="team-card__social-item">
+                  <a href="" class="team-card__social-tw">
+                    <img src="img/tw-icon.svg" alt="tw-link" width="18" height="12">
+                  </a>
+                </li>
+              </ul>
+              <button class="team-card__look-btn">Смотреть</button>
+            </div>
+          </li>
+          </ul>
           <button class="team__btn team__btn--prev" type="button">
             <svg width="6" height="9" viewBox="0 0 6 9" fill="none">
               <path d="M5 8L1 4.5L5 1" stroke="#8E80A9"/>
               </svg>              
           </button>
+          <p class="team__pages-number">1/9</p>
           <button class="team__btn team__btn--next team__btn--active" type="button">
             <svg width="6" height="9" viewBox="0 0 6 9" fill="none">
               <path d="M1 1L5 4.5L1 8" stroke="white"/>

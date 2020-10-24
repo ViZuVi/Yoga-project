@@ -66,3 +66,33 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .header {
+    padding: 38px 75px 140px;
+    background-image: url("../../img/header-bcg-tablet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header__menu-text {
+    display: block;
+    margin-left: 30px;
+    color: #8B7EAC;
+    font-size: 12px;
+    line-height: 10px;
+    font-family: "Geometria", "Arial", sans-serif;
+  }
+
+  .header__logo {
+    margin-top: 70px;
+  }
+
+  .header__name {
+    font-size: 144px;
+    width: 587px;
+    letter-spacing: 50px;
+    margin-top: 45px;
+    margin-bottom: 70px;
+  }
+}

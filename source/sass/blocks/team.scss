@@ -52,3 +52,52 @@
   margin-top: 20px;
   margin-bottom: 25px;
 }
+
+@media (min-width: 768px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .team__title {
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .team__btn-wtapper {
+    width: 260px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team__list {
+    order: 0;
+    margin-bottom: 30px;
+  }
+
+  .team__btn {
+    padding: 0 14px;
+
+    &--prev {
+      order: 1;
+      margin-right: 10px;
+      margin-left: auto;
+    }
+  
+    &--next {
+      order: 3;
+      margin-left: 10px;
+    }
+  }
+
+  .team__pages-number {
+    display: block;
+    order: 2;
+  }
+
+  .team__member-about {
+    width: 311px;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+}

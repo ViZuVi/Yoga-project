@@ -33,8 +33,34 @@
   color: #FFFFFF;
   font-size: 14px;
   line-height: 20px;
+  font-family: inherit;
   padding: 20px 66px;
   background-color: #E65C7B;
   border: none;
   margin-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+  .sign-up__title {
+    margin: 70px auto 40px;;
+    font-size: 30px;
+    line-height: 40px;
+    width: 412px;
+  }
+
+  .sign-up__form {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    margin: 0 auto;
+  }
+
+  .sign-up__input {
+    width: 100%;
+    margin-bottom: 47px;
+  }
+
+  .sign-up__btn {
+    width: 412px;
+  }
 }

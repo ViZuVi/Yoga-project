@@ -14,11 +14,12 @@
   &::before {
     content: "";
     position: absolute;
-    top: -50px;
+    top: -30px;
     left: 0;
     width: 27px;
     height: 23px;
     background-image: url("../../img/quotes-icon.svg");
+    background-repeat: no-repeat;
   }
 }
 
@@ -53,4 +54,16 @@
 
 .review__social-item {
   margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .review {
+    width: 442px;
+    padding: 72px 57px 30px 87px;
+  }
+
+  .review__text {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
 }

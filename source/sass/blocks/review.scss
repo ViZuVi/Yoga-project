@@ -56,10 +56,11 @@
   margin-right: 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .review {
     width: 442px;
     padding: 72px 57px 30px 87px;
+    margin-right: 20px;
   }
 
   .review__text {
@@ -67,3 +68,7 @@
     margin-bottom: 20px;
   }
 }
+
+// @media (min-width: $desktop-width) {
+  
+// }

@@ -37,3 +37,37 @@
 .reviews__pages-number {
   margin: 0;
 }
+
+@media (min-width: $desktop-width) {
+  .reviews {
+    position: relative;
+  }
+
+  .reviews__list {
+    flex-direction: row;
+  }
+
+  .reviews__pages-number {
+    display: none;
+  }
+
+  .reviews__btn {
+    position: absolute;
+    padding: 5px 20px;
+
+    &--prev {
+      left: 15%;
+      top: 50%;
+      background-color: #8E80A9;
+
+      path {
+        stroke: #FFFFFF;
+      }
+    }
+
+    &--next {
+      right: 15%;
+      top: 50%;
+    }
+  }
+}

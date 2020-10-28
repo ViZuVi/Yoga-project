@@ -40,7 +40,7 @@
   margin-bottom: 70px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .sign-up__title {
     margin: 70px auto 40px;;
     font-size: 30px;

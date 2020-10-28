@@ -40,7 +40,7 @@
 .header__name {
   font-size: 67px;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .header__trial-link {
@@ -88,11 +88,33 @@
     margin-top: 70px;
   }
 
+  .header__logo-img {
+    width: 310px;
+  }
+
   .header__name {
     font-size: 144px;
     width: 587px;
     letter-spacing: 50px;
     margin-top: 45px;
     margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header__nav {
+    font-size: 16px;
+  }
+
+  .header__logo-img {
+    width: 582px;
+    margin-bottom: 50px;
+  }
+
+  .header__name {
+    font-size: 265px;
+    letter-spacing: 90px;
+    margin-top: 120px;
+    margin-bottom: 150px;
   }
 }

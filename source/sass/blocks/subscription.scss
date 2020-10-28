@@ -22,6 +22,7 @@
 .subscription__months-btn {
   padding: 5px 0;
   font-size: 12px;
+  font-family: inherit;
   color: #E65C7B;
   background-color: transparent;
   cursor: pointer;
@@ -79,7 +80,7 @@
   padding: 14px 23px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .subscription {
     margin-bottom: 50px;
   }
@@ -124,5 +125,40 @@
     display: none;
     margin-top: 20px;
     padding: 10px 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .subscription__card {
+    width: 263px;
+    padding: 55px 70px;
+
+    &--active {
+      width: 331px;
+
+      .subscription__card-time {
+        width: 161px;
+      }
+    }
+  }
+
+  .subscription__card-title {
+    font-size: 18px;
+  }
+
+  .subscription__card-time {
+    font-size: 12px;
+    width: 93px;
+  }
+
+  .subscription__card-price {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  .subscription__card-order-btn {
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 10px 25px;
   }
 }

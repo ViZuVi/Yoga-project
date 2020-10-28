@@ -14,9 +14,15 @@
   font-weight: bold;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .page__section-container {
     padding-left: 78px;
     padding-right: 67px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page__title {
+    font-size: 30px;
   }
 }

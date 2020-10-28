@@ -46,6 +46,10 @@
   margin: 0 30px;
 }
 
+.team__member-name {
+  display: none;
+}
+
 .team__member-experiance {
   line-height: 20px;
   color: #E65C7B;
@@ -53,10 +57,11 @@
   margin-bottom: 25px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet-width) {
   .team {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .team__title {
@@ -95,9 +100,45 @@
     order: 2;
   }
 
+  .team__member-name {
+    display: block;
+    font-size: 16px;
+    color: inherit;
+    font-weight: bold;
+  }
+
   .team__member-about {
     width: 311px;
     margin-left: 50px;
     margin-right: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .team__btn-wtapper {
+    width: 422px;
+    margin-top: 100px;
+  }
+
+  .team__list {
+    width: 378px;
+    margin-bottom: 44px;
+  }
+
+  .team__member-about {
+    margin-top: 78px;
+  }
+
+  .team__member-name {
+    font-size: 18px;
+  }
+
+  .team__member-experiance, 
+  .team__member-description {
+    font-size: 12px;
+  }
+
+  .team__pages-number {
+    font-size: 12px;
   }
 }
